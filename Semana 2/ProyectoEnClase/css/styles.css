@@ -1,0 +1,176 @@
+body{background-color: antiquewhite;}
+
+header{
+    background-color: firebrick;
+    padding: 10px;
+}
+nav{
+padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+
+}
+
+
+.information-items{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.redes-grid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 20px;
+
+}
+.redes-items{
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.about-grid{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+
+
+}
+
+.about-text{
+    background-color: azure;
+
+}
+.logo{
+    width: 100px;
+    flex-basis: 500px;
+}
+
+.FacebookIcon{
+    width: 70px;
+    flex-basis: 50px;
+}
+
+.InstagramIcon{
+    width: 50px;
+    flex-basis: 50px;
+}
+.TiktokIcon{
+    width: 70px;
+    flex-basis: 50px;
+}
+.XIcon{
+    width: 50px;
+    flex-basis: 50px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+
+}
+.menu a:hover{
+    color: chocolate;
+}
+
+.slide{
+    background-image: url("../imagenes/Comida-Italiana-1920x960.jpg");
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.slide-content{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.btn-booking{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.btn-booking:hover{
+    color: chocolate;
+}
+
+.about{
+    padding: 50px;
+    text-align: center;
+
+}
+.about h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.dish{
+    padding: 50px;
+    text-align: center;
+}
+.dish h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.dish-grid{
+    display: grid;
+    gap: 20px;
+    text-align: left;
+    grid-template-columns: repeat(3,2fr);
+}
+
+.dish-item{
+background-color: whitesmoke;
+padding: 20px;
+border-radius: 5px;
+
+}
+
+.chef{
+    padding: 50px;
+    text-align: center;
+
+
+}
+.chef-item{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.chef h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+footer{
+    color: white;
+    background-color: firebrick;
+    padding: 10px;
+
+}
+

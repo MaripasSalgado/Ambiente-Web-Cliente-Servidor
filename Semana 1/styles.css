@@ -1,0 +1,80 @@
+.titulo{
+    background-color: beige;
+
+}
+
+.druida{
+    background-color: orangered;
+    color: black;
+    font-weight:  bold;
+}
+
+.paladin{
+    background-color: pink;
+    color: black;
+    font-weight:  bold;
+}
+.guerrero{
+    background-color: brown;
+    color: black;
+    font-weight:  bold;
+}
+
+.picaro{
+    background-color: yellow;
+    color: black;
+    font-weight:  bold;
+}
+.mago{
+    background-color: lightblue;
+    color: black;
+    font-weight:  bold;
+}
+.brujo{
+    background-color: blueviolet;
+    color: black;
+    font-weight:  bold;
+}
+
+.evokador{
+    background-color: green;
+    color: black;
+    font-weight:  bold;
+}
+.chaman{
+    background-color: dodgerblue;
+    color: black;
+    font-weight:  bold;
+}
+
+.sacerdote{
+    background-color: white;
+    color: black;
+    font-weight:  bold;
+}
+
+.monje{
+    background-color: mediumspringgreen;
+    color: black;
+    font-weight:  bold;
+}
+
+.cazador{
+    background-color: lightgreen;
+    color: black;
+    font-weight:  bold;
+}
+
+.cazadorDeDemonios{
+    background-color: darkmagenta;
+    color: black;
+    font-weight:  bold;
+}
+.caballeroDeLaMuerte{
+    background-color: red;
+    color: black;
+    font-weight:  bold;
+}
+.video{
+    color: crimson;
+}
