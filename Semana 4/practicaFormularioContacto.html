@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Contacto</title>
+  </head>
+  <body>
+    <div class="contact_form">
+      <div class="form">
+        <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+        <form action="procesar_formulario_contacto.php" method="post">
+          <p>
+            <label for="name" class="insert_name"
+              >Nombre
+              <span class="obligatorio">*</span>
+            </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required="obligatorio"
+              placeholder="Escribe tu nombre"
+            />
+          </p>
+
+          <p>
+            <label for="last_name" class="insert_last_name"
+              >Apellidos
+              <span class="obligatorio">*</span>
+            </label>
+            <input
+              type="text"
+              name="last_name"
+              id="last_name"
+              required="obligatorio"
+              placeholder="Escribe tu nombre"
+            />
+          </p>
+
+          <p>
+            <label for="email" class="insert_email"
+              >Email
+              <span class="obligatorio">*</span>
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required="obligatorio"
+              placeholder="Escribe tu Email"
+            />
+          </p>
+
+          <p>
+            <label for="phone" class="insert_phone">Teléfono </label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Escribe tu teléfono"
+            />
+          </p>
+          <button type="submit" name="send_form" id="send">
+            <p>Enviar</p>
+          </button>
+
+          <p class="aviso">
+            <span class="obligatorio"> * </span>los campos son obligatorios.
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

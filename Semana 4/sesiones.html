@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Ingreso de Usuario</title>
+  </head>
+  <body>
+    <div class="contact_form">
+      <div class="form">
+        <h1>Ingresar</h1>
+
+        <form action="procesar_sesion.php" method="post">
+          <p>
+            <label for="username" class="insert_username">Usuario </label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              required="obligatorio"
+              placeholder="Usuario"
+            />
+          </p>
+
+          <p>
+            <label for="password" class="insert_password">Contraseña </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Contraseña"
+            />
+          </p>
+          <button type="submit" name="send_form" id="send">
+            <p>Ingresar</p>
+          </button>
+
+          <p class="aviso">
+            <span class="obligatorio"> * </span>los campos son obligatorios.
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
