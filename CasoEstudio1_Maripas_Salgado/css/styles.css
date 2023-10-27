@@ -1,0 +1,218 @@
+/* Estilos para el encabezado y el menú de navegación */
+header {
+    background-color: #2E8B57; /* Verde Bosque */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Aplica estilos al contenedor del logo */
+.logo-container {
+    width: 100px; /* Ancho deseado */
+    height: auto; /* Alto deseado */
+}
+
+/* Estilos adicionales para el logo*/
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+
+}
+
+.explore-list img{
+
+        width: 650px; /* Ancho fijo */
+        height: 500px; /* Altura fija */
+
+
+}
+
+/* Estilos para tours.php */
+
+/* Estilos para el encabezado y la barra de navegación */
+header {
+    background-color: #2E8B57; /* Verde Bosque */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para la lista de tours */
+.tours-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en el eje horizontal */
+    padding: 0;
+    margin: 0;
+}
+
+
+.tours-list li {
+    flex: 0 0 calc(33.33% - 20px); /* Ajusta el ancho de cada cuadro de tour */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px; /* Espacio entre los cuadros */
+    padding: 10px;
+    text-align: center;
+}
+
+.tours-list img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.tours-list h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.tours-section{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para contact.php */
+
+/* Estilos para el encabezado y la barra de navegación */
+header {
+    background-color: #2E8B57; /* Verde Bosque */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para la sección de contacto */
+.contact-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
