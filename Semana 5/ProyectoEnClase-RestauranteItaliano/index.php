@@ -1,13 +1,14 @@
 <?php
+include("functions.php");
 include("config.php");
 session_start();
+$menu = getMenu();
 
 $conn = new mysqli($servername, $username, $password, $database);
 
 if ($conn->connect_error) {
     die("Error de conexion");
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
