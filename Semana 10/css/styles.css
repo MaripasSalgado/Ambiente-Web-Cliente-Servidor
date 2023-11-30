@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.info{
+    padding: 0;
+    margin: 10px;
+    border-bottom: 5px solid #333;
+}
+
+.info p{
+    font-size: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 5000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-column, .right-column {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.left-column {
+    grid-column: 1 / span 1;
+}
+
+.right-column {
+    grid-column: 2 / span 1;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h1, h2 {
+    color: #495057;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: inherit;
+}
+
+.experience li {
+
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.personal-projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: inherit;
+}
+
+.personal-projects li {
+
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.certificades ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: inherit;
+}
+
+.certificades li {
+
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+.languages ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages li {
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 15px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .left-column, .right-column {
+        border-radius: 0;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.8em;
+    }
+
+    ul, li {
+        font-size: 0.9em;
+    }
+}
